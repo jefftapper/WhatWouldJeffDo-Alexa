@@ -136,7 +136,8 @@ def what_would_jeff_do(intent, session):
 def should_i_wear_shorts(intent, session):
     session_attributes = {}
     reprompt_text = None
-	speech_output = "You should definitely wear shorts today"
+	speech_output = "No way, its too cold for shorts."
+	#speech_output = "You should definitely wear shorts"
         should_end_session = True
 
     # Setting reprompt_text to None signifies that we do not want to reprompt
